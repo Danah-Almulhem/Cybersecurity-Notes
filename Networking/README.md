@@ -23,8 +23,8 @@
 
 ## Protocols ##
 
--**IP**: set of rules that allows computers and other devices to communicate over the Internet.and ensures that information sent from one divice to another.
--**ICMP**: a network layer protocol used by network devices such as routers to send error messages and operational information.
+- **IP**: set of rules that allows computers and other devices to communicate over the Internet.and ensures that information sent from one divice to another.
+- **ICMP**: a network layer protocol used by network devices such as routers to send error messages and operational information.
 
 
 ## 4. Transport Layer
