@@ -21,7 +21,7 @@
 
 - Routes packets between different networks by determining the most efficient path.
 
-## Protocols##
+## Protocols ##
 
 -**IP**: set of rules that allows computers and other devices to communicate over the Internet.and ensures that information sent from one divice to another.
 -**ICMP**: a network layer protocol used by network devices such as routers to send error messages and operational information.
@@ -56,7 +56,7 @@
 
 - Translates, encrypts, and compresses data into a format that applications can understand.
 
- ## Examples##
+ ## Examples ##
 - SSL/TLS
 - JPEG
 - PNG
