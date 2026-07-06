@@ -20,6 +20,6 @@
 
 - `cp notes.txt notes-copy.txt` - creates a copy from notes.txt 
 
-- `mv notes-copy.txt backup.txt` - change the name of the file `
+- `mv notes-copy.txt backup.txt` - change the name of the file 
 
-- `rm backup.txt ` - remove backup.txt file #
+- `rm backup.txt ` - remove backup.txt file 
