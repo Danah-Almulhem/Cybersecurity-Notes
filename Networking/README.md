@@ -10,7 +10,7 @@
 - Handles node to node data  transfer brtween devices on the same network.
 #Protocols
 - Ethernet : The standard protocol for LANs and it relies on MAC addressing to identify physical hardware
-- WIFI : the standard protocol that governing WANs. it manages media access and prevent signal collosion with (CSMA/CA)
+- WIFI : the standard protocol that governing WLANs. it manages media access and prevent signal collosion with CSMA/CA
 
 3. Network
 - conducts routing between different networks, determining the most efficient path.
