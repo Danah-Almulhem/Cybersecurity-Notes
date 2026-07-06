@@ -1,7 +1,7 @@
 
-#Networking
+# Networking
 
-##OSI Model
+## OSI Model
 
 
 ## 1. Physical Layer
@@ -12,7 +12,7 @@
 
 - Handles node-to-node data transfer between devices on the same network.
 
-##Protocols##
+## Protocols ##
 
 - **Ethernet**: The standard protocol for LANs. It uses MAC addresses to identify physical devices.
 - **Wi-Fi**: The standard protocol for WLANs. It manages media access and helps prevent signal collisions using **CSMA/CA**.
@@ -21,7 +21,7 @@
 
 - Routes packets between different networks by determining the most efficient path.
 
-##Protocols##
+## Protocols##
 
 -**IP**: set of rules that allows computers and other devices to communicate over the Internet.and ensures that information sent from one divice to another.
 -**ICMP**: a network layer protocol used by network devices such as routers to send error messages and operational information.
@@ -31,7 +31,7 @@
 
 - Handles end-to-end data transmission using **TCP** and **UDP** protocols.
 
-##Protocols##
+## Protocols ##
 
 ### TCP vs UDP
 
@@ -47,7 +47,7 @@
 
 - Establishes, manages, and terminates communication sessions between devices.
 
-##Examples##
+## Examples ##
 - Zoom
 - Microsoft Teams
 - Remote Desktop
@@ -56,7 +56,7 @@
 
 - Translates, encrypts, and compresses data into a format that applications can understand.
 
- ##Examples##
+ ## Examples##
 - SSL/TLS
 - JPEG
 - PNG
@@ -66,7 +66,7 @@
 
 - Provides network services directly to end-user applications.
 
- ##Protocols##
+ ## Protocols ##
 - HTTP
 - HTTPS
 - DNS

@@ -1,7 +1,7 @@
 
-#Linux 
+# Linux 
 
-##Basic Commands
+## Basic Commands
 
 - pwd   : print current directory
 - ls    : list files
