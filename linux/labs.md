@@ -93,3 +93,67 @@ Linux is awesome
 - man is useful when I forget how to use a command.
 - grep searches inside files, not for file names.
 - find searches for files and directories.
+
+----
+
+# Lab 3 - Linux File Permissions
+
+## Commands
+```bash
+touch secret.txt
+ls -l
+chmod u+x secret.txt
+chmod go-w secret.txt
+chmod 750 secret.txt
+chmod 644 secret.txt
+chmod 600 secret.txt
+```
+## What I learned
+
+- Display file permissions using ls -l.
+- Understand the meaning of r, w, and x.
+- Permissions are divided into Owner, Group, and Others.
+- Change permissions using symbolic mode (`u+x`, `go-w`).
+- Change permissions using numeric mode (`750`, 644, `600`).
+
+## Permission symbol meaning
+
+| Symbol | Meaning |
+|--------|---------|
+|r| Reading|
+|w|Writing|
+|x|Execute|
+
+## Permission Targets
+
+| Symbol| Meaning|
+|-------|--------|
+|u| The user (owner)|
+|g| Groub|
+|o| Others|
+|a| All|
+
+## Permission Operators
+
+| Permission | Meaning |
+|------------|------|
+| + | Add permission |
+| - | Remove permission |
+| + | set exact permission |
+
+## Permission Values
+
+| Permission | Value |
+|------------|------|
+| r | 4 |
+| w | 2 |
+| x | 1 |
+
+## Common Examples
+
+| Number | Permission |
+|---------|------------|
+| 644 | rw-r--r-- |
+| 750 | rwxr-x--- |
+| 755 | rwxr-xr-x |
+| 600 | rw------- |
