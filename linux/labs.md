@@ -25,6 +25,7 @@
 
 - `rm backup.txt ` - remove backup.txt file 
 
+---
 
 # Lab 2 - Searching and System Information
 
