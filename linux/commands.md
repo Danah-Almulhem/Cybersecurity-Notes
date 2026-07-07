@@ -257,3 +257,61 @@ man command
 
 - Press q to exit the manual page.
 - Useful for learning command options and usage.
+
+-----
+
+## chmod
+
+### Description
+
+The chmod (Change Mode) command is used to change the permissions of files and directories in Linux.
+
+### Syntax
+chmod [options] mode file
+
+### Example
+`chmod 755 script.sh`
+
+Changes the file permissions to rwxr-xr-x.
+
+## Permission symbol meaning
+
+| Symbol | Meaning |
+|--------|---------|
+|r| Reading|
+|w|Writing|
+|x|Execute|
+
+## Permission Targets
+
+| Symbol| Meaning|
+|-------|--------|
+|u| The user (owner)|
+|g| Groub|
+|o| Others|
+|a| All|
+
+## Permission Operators
+
+| Permission | Meaning |
+|------------|------|
+| + | Add permission |
+| - | Remove permission |
+| + | set exact permission |
+
+## Permission Values
+
+| Permission | Value |
+|------------|------|
+| r | 4 |
+| w | 2 |
+| x | 1 |
+
+## Common Examples
+
+| Number | Permission |
+|---------|------------|
+| 644 | rw-r--r-- |
+| 750 | rwxr-x--- |
+| 755 | rwxr-xr-x |
+| 600 | rw------- |
