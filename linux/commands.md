@@ -10,7 +10,7 @@ Displays the current working directory.
 pwd
 
 ### Example
-pwd
+`pwd`
 
 Output:
 /home/kali
@@ -37,9 +37,9 @@ ls [option] [directory]
 | directory | The directory to display (optional) |
 
 ### Examples
-ls
-ls -l - show extra information
-ls -a - show hidden files
+- `ls`
+- `ls -l ` show extra information
+- `ls -a `show hidden files
 
 ---
 
@@ -52,7 +52,7 @@ Creates a new directory.
 mkdir directory_name
 
 ### Example
-mkdir CyberLab
+`mkdir CyberLab`
 
 ---
 
@@ -65,9 +65,11 @@ Changes the current working directory.
 cd directory_name
 
 ### Examples
+```bash
 cd CyberLab
 cd ..
-cd ~
+cd ~ 
+```
 
 ### Symbols
 
@@ -88,7 +90,7 @@ Creates a new empty file.
 touch filename
 
 ### Example
-touch notes.txt
+`touch notes.txt`
 
 ---
 
@@ -104,7 +106,7 @@ To write text into a file:
 echo "text" > filename
 
 ### Example
-echo "Linux is awesome" > test.txt
+`echo "Linux is awesome" > test.txt`
 
 ### Notes
 
@@ -123,7 +125,7 @@ Displays the contents of a file.
 cat filename
 
 ### Example
-cat test.txt
+`cat test.txt`
 
 ---
 
@@ -136,7 +138,7 @@ Copies files or directories.
 cp source destination
 
 ### Example
-cp notes.txt backup.txt
+`cp notes.txt backup.txt`
 
 ---
 
@@ -149,10 +151,10 @@ Moves or renames files and directories.
 mv source destination
 
 ### Rename Example
-mv backup.txt notes-copy.txt
+`mv backup.txt notes-copy.txt`
 
 ### Move Example
-mv notes.txt Documents/
+`mv notes.txt Documents/`
 
 ---
 
@@ -165,7 +167,7 @@ Deletes files or directories.
 rm filename
 
 ### Example
-rm backup.txt
+`rm backup.txt`
 
 To remove a directory:
 rm -r folder_name
@@ -183,7 +185,7 @@ Displays the current logged-in user.
 whoami
 
 ### Example
-whoami
+`whoami`
 
 Output:
 kali
@@ -199,7 +201,7 @@ Displays the list of previously executed commands.
 history
 
 ### Example
-history
+`history`
 
 ---
 
@@ -212,7 +214,7 @@ Searches for files and directories.
 find [path] [option] [expression]
 
 ### Example
-find . -name notes.txt
+`find . -name notes.txt`
 
 ### Breakdown
 
@@ -233,7 +235,7 @@ Searches for specific text inside a file.
 grep "text" filename
 
 ### Example
-grep Linux test.txt
+`grep Linux test.txt`
 
 Output:
 Linux is awesome
@@ -249,7 +251,7 @@ Displays the manual page for a command.
 man command
 
 ### Example
-man ls
+`man ls`
 
 ### Notes
 
