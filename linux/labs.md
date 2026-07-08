@@ -117,3 +117,25 @@ chmod 600 secret.txt
 - Change permissions using symbolic mode (`u+x`, `go-w`).
 - Change permissions using numeric mode (`750`, 644, `600`).
 
+----
+
+# Lab 4 - Users and Groups
+
+## Objective
+
+Learn how to identify the current user and view group memberships.
+
+## Commands Used
+
+bash
+whoami
+id
+groups
+
+
+## What I Learned
+
+- Identified the current logged-in user.
+- Viewed the user's UID and GID.
+- Listed all groups the user belongs to.
+- Understood the difference between Owner, Group, and Others.

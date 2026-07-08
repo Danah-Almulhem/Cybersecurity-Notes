@@ -315,3 +315,71 @@ Changes the file permissions to rwxr-xr-x.
 | 750 | rwxr-x--- |
 | 755 | rwxr-xr-x |
 | 600 | rw------- |
+
+---
+
+# User and Group Commands
+
+## whoami
+
+### Description
+
+Displays the username of the current logged-in user.
+
+### Syntax
+
+```bash
+whoami
+```
+
+### Example
+
+```bash
+whoami
+```
+
+Output:
+
+```text
+kali
+```
+
+---
+
+## id
+
+### Description
+
+Displays the current user's UID, GID, and all groups they belong to.
+
+### Syntax
+
+```bash
+id
+```
+
+### Example
+
+```bash
+id
+```
+
+---
+
+## groups
+
+### Description
+
+Displays all groups the current user belongs to.
+
+### Syntax
+
+```bash
+groups
+```
+
+### Example
+
+```bash
+groups
+```
