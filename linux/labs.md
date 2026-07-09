@@ -139,3 +139,27 @@ groups
 - Viewed the user's UID and GID.
 - Listed all groups the user belongs to.
 - Understood the difference between Owner, Group, and Others.
+
+---
+
+# Lab 5 - File Ownership
+
+## Objective
+
+Learn how to view and modify file ownership.
+
+## Commands Used
+
+```bash
+ls -l
+groups
+sudo chgrp
+sudo chown
+```
+
+## What I Learned
+
+- Identified the owner and group of a file.
+- Learned the purpose of `sudo`.
+- Changed the group ownership using `chgrp`.
+- Learned how `chown` changes the owner or both the owner and group.

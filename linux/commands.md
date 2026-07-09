@@ -383,3 +383,91 @@ groups
 ```bash
 groups
 ```
+---
+
+# sudo
+
+## Definition
+
+Runs a command with superuser (root) privileges.
+
+## Syntax
+
+```bash
+sudo <command>
+```
+
+## Example
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo chown ahmed notes.txt
+```
+
+## Common Uses
+
+- Install or remove software.
+- Update the system.
+- Change file ownership.
+- Modify system files.
+- Perform administrative tasks.
+
+## When to Use
+
+Use sudo when a command requires administrator (root) privileges.
+
+## When Not to Use
+
+Do not use sudo for normal tasks such as:
+
+- Creating your own files.
+- Editing files in your home directory.
+- Navigating directories.
+- Listing files.
+
+---
+
+# chown
+
+## Definition
+
+Changes the owner of a file or directory.
+
+## Syntax
+
+```bash
+chown [owner] filename
+```
+
+### Example
+
+```bash
+sudo chown ahmed notes.txt
+```
+
+Changes the owner of `notes.txt` to `ahmed`.
+
+---
+
+# chgrp
+
+## Definition
+
+Changes the group ownership of a file or directory.
+
+## Syntax
+
+```bash
+chgrp [group] filename
+```
+
+### Example
+
+```bash
+sudo chgrp wireshark notes.txt
+```
+
+Changes the group of `notes.txt` to `wireshark`.
