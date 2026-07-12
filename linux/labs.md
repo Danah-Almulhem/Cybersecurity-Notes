@@ -163,3 +163,30 @@ sudo chown
 - Learned the purpose of `sudo`.
 - Changed the group ownership using `chgrp`.
 - Learned how `chown` changes the owner or both the owner and group.
+
+---
+
+# Lab 6 - Viewing and Editing Files
+
+## Objective
+
+Learn how to view, navigate, and edit text files using common Linux commands.
+
+## Commands Used
+
+```bash
+cat
+less
+head
+tail
+nano
+```
+
+## What I Learned
+
+- Displayed the entire contents of a file using `cat`.
+- Viewed large files page by page using `less`.
+- Displayed the first lines of a file using `head`.
+- Displayed the last lines of a file using `tail`.
+- Created and edited text files using `nano`.
+- Saved changes and exited Nano using keyboard shortcuts.

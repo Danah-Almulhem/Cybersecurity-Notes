@@ -471,3 +471,116 @@ sudo chgrp wireshark notes.txt
 ```
 
 Changes the group of `notes.txt` to `wireshark`.
+
+---
+
+# cat
+
+## Definition
+
+Displays the entire contents of a file.
+
+## Syntax
+
+```bash
+cat filename
+```
+
+### Example
+
+```bash
+cat notes.txt
+```
+
+---
+
+# less
+
+## Definition
+
+Displays a file one page at a time.
+
+## Syntax
+
+```bash
+less filename
+```
+
+### Example
+
+```bash
+less notes.txt
+```
+
+---
+
+# head
+
+## Definition
+
+Displays the first lines of a file.
+
+## Syntax
+
+```bash
+head filename
+head -n filename
+```
+
+### Example
+
+```bash
+head notes.txt
+head -5 notes.txt
+```
+
+---
+
+# tail
+
+## Definition
+
+Displays the last lines of a file.
+
+## Syntax
+
+```bash
+tail filename
+tail -n filename
+```
+
+### Example
+
+```bash
+tail notes.txt
+tail -5 notes.txt
+```
+
+---
+
+# nano
+
+## Definition
+
+A simple terminal-based text editor used to create and edit text files.
+
+## Syntax
+
+```bash
+nano filename
+```
+
+### Example
+
+```bash
+nano notes.txt
+```
+
+### Useful Shortcuts
+
+- Ctrl + O → Save file
+- Ctrl + X → Exit Nano
+- Ctrl + W → Search
+
+---
+
