@@ -240,6 +240,65 @@ grep "text" filename
 Output:
 Linux is awesome
 
+## Common Options
+
+### `-i`
+
+**Definition**
+
+Ignores uppercase and lowercase letters while searching.
+
+**Syntax**
+
+```bash
+grep -i "text" filename
+```
+
+**Example**
+
+```bash
+grep -i "linux" notes.txt
+```
+
+---
+
+### `-n`
+
+**Definition**
+
+Displays the line number of each matching line.
+
+**Syntax**
+
+```bash
+grep -n "text" filename
+```
+
+**Example**
+
+```bash
+grep -n "linux" notes.txt
+```
+
+---
+
+### `-c`
+
+**Definition**
+
+Counts the number of matching lines.
+
+**Syntax**
+
+```bash
+grep -c "text" filename
+```
+
+**Example**
+
+```bash
+grep -c "linux" notes.txt
+```
 ---
 
 ## man
