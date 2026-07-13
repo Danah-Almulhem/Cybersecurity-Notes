@@ -216,3 +216,68 @@ cut
 - Counted and displayed duplicate lines using `uniq` options.
 - Extracted specific fields from a file using `cut`.
 - Learned how delimiters and fields work with `cut`.
+---
+
+# Lab 8 - grep
+
+## Objective
+
+Learn additional options for the `grep` command.
+
+## Commands Used
+
+```bash
+grep -i "linux" notes.txt
+grep -n "linux" notes.txt
+grep -c "linux" notes.txt
+```
+
+## What I Learned
+
+- Used `-i` to ignore letter case.
+- Used `-n` to display line numbers.
+- Used `-c` to count matching lines.
+
+---
+# Lab 9 - Find
+
+## Commands
+
+```bash
+touch report.txt
+
+mkdir Projects
+
+find . -name "report.txt"
+
+find . -type f -name "report.txt"
+
+find . -type d -name "Projects"
+
+touch Report.txt
+
+find . -iname "report.txt"
+```
+
+## Notes
+
+- `find` → Search for files and directories.
+- `.` → Search in the current directory.
+- `-name` → Search by exact name (case-sensitive).
+- `-iname` → Search by name (case-insensitive).
+- `-type f` → Search for files only.
+- `-type d` → Search for directories only.
+
+## Examples
+
+```bash
+find . -name "notes.txt"
+
+find . -type f -name "report.txt"
+
+find . -type d -name "Projects"
+
+find . -iname "Report.txt"
+```
+---
+

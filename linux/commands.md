@@ -213,6 +213,20 @@ Searches for files and directories.
 ### Syntax
 find [path] [option] [expression]
 
+## Common Options
+
+### -type f
+
+Search for files only.
+
+### -type d
+
+Search for directories only.
+
+### -iname
+
+Search by name (case-insensitive).
+
 ### Example
 `find . -name notes.txt`
 
