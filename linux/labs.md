@@ -190,3 +190,29 @@ nano
 - Displayed the last lines of a file using `tail`.
 - Created and edited text files using `nano`.
 - Saved changes and exited Nano using keyboard shortcuts.
+
+---
+
+# Lab 7 - Text Processing
+
+## Objective
+
+Learn how to analyze and process text files using common Linux text processing commands.
+
+## Commands Used
+
+```bash
+wc
+sort
+uniq
+cut
+```
+
+## What I Learned
+
+- Counted lines, words, and characters using `wc`.
+- Sorted file contents alphabetically using `sort`.
+- Removed duplicate adjacent lines using `uniq`.
+- Counted and displayed duplicate lines using `uniq` options.
+- Extracted specific fields from a file using `cut`.
+- Learned how delimiters and fields work with `cut`.

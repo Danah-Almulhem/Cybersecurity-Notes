@@ -583,4 +583,90 @@ nano notes.txt
 - Ctrl + W → Search
 
 ---
+# wc
 
+## Definition
+
+Displays the number of lines, words, and characters in a file.
+
+## Syntax
+
+```bash
+wc [option] filename
+```
+
+### Example
+
+```bash
+wc practice.txt
+wc -l practice.txt
+wc -w practice.txt
+wc -m practice.txt
+```
+
+---
+
+# sort
+
+## Definition
+
+Sorts the contents of a file alphabetically.
+
+## Syntax
+
+```bash
+sort [option] filename
+```
+
+### Example
+
+```bash
+sort names.txt
+sort -r names.txt
+sort -f names.txt
+sort names.txt > sorted.txt
+```
+
+---
+
+# uniq
+
+## Definition
+
+Removes duplicate adjacent lines from a file.
+
+## Syntax
+
+```bash
+uniq [option] filename
+```
+
+### Example
+
+```bash
+uniq fruits.txt
+uniq -c fruits.txt
+uniq -d fruits.txt
+```
+
+---
+
+# cut
+
+## Definition
+
+Extracts specific fields (columns) from each line of a file using a delimiter.
+
+## Syntax
+
+```bash
+cut -d "delimiter" -f field_number filename
+```
+
+### Example
+
+```bash
+cut -d "," -f1 students.txt
+cut -d "," -f2 students.txt
+cut -d "," -f3 students.txt
+```
