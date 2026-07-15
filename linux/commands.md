@@ -743,3 +743,47 @@ cut -d "," -f1 students.txt
 cut -d "," -f2 students.txt
 cut -d "," -f3 students.txt
 ```
+---
+# Redirection (>)
+
+## Definition
+
+Redirects the output of a command to a file. If the file already exists, its contents are overwritten.
+
+## Syntax
+
+```bash
+command > filename
+```
+
+### Example
+
+```bash
+echo "Linux" > notes.txt
+```
+
+---
+
+# Redirection (>>)
+
+## Definition
+
+Appends the output of a command to the end of a file without overwriting its existing contents.
+
+## Syntax
+
+```bash
+command >> filename
+```
+
+### Example
+
+```bash
+echo "Networking" >> notes.txt
+```
+
+### Notes
+
+- `>` → Overwrites the file contents.
+- `>>` → Appends to the end of the file without overwriting.
+---

@@ -280,4 +280,55 @@ find . -type d -name "Projects"
 find . -iname "Report.txt"
 ```
 ---
+# Lab 10 - Pipes
 
+## Objective
+
+Learn how to combine Linux commands using the pipe (`|`) operator.
+
+## Commands Used
+
+```bash
+sort fruits.txt | uniq
+
+grep "banana" fruits.txt | wc -l
+
+find . -type f | sort
+```
+
+## What I Learned
+
+- Used the pipe (`|`) to pass the output of one command as the input to another.
+- Combined `sort` with `uniq` to remove duplicate lines.
+- Combined `grep` with `wc -l` to count matching lines.
+- Combined multiple commands to make text processing more efficient.
+---
+# Lab 11 - Output Redirection
+
+## Objective
+
+Learn how to redirect command output into files using `>` and `>>`.
+
+## Commands Used
+
+```bash
+echo "Linux" > notes.txt
+
+cat notes.txt
+
+echo "Cybersecurity" > notes.txt
+
+cat notes.txt
+
+echo "Networking" >> notes.txt
+
+cat notes.txt
+```
+
+## What I Learned
+
+- Used `>` to redirect command output to a file.
+- Learned that `>` overwrites the existing file contents.
+- Used `>>` to append output to the end of a file.
+- Learned that `>>` preserves the existing file contents.
+---
