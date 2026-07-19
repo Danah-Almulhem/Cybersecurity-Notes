@@ -332,3 +332,87 @@ cat notes.txt
 - Used `>>` to append output to the end of a file.
 - Learned that `>>` preserves the existing file contents.
 ---
+# Lab 12 - cp
+
+## Objective
+Learn how to copy files and directories using the `cp` command.
+
+## Commands Used
+
+```bash
+touch notes.txt
+```
+
+```bash
+cp notes.txt notes-backup.txt
+```
+
+```bash
+mkdir Files
+```
+
+```bash
+cp notes.txt Files/
+```
+
+```bash
+mkdir Test
+```
+
+```bash
+cp -r Test Testcopy
+```
+
+```bash
+cp -r Files Test
+```
+
+## Notes
+
+- Copies files or directories.
+- `cp source destination` → Copy a file or directory.
+- `cp file1 file2` → Copy a file with a new name.
+- `cp file Folder/` → Copy a file into a folder.
+- `cp -r Folder1 Folder2` → Copy a directory recursively.
+- Without `-r`, directories cannot be copied.
+---
+# Lab 13 - mv
+
+## Objective
+
+Learn how to move and rename files and directories using the `mv` command.
+
+## Commands Used
+
+```bash
+touch notes.txt
+```
+
+```bash
+mv notes.txt notes_old.txt
+```
+
+```bash
+mkdir Files
+```
+
+```bash
+mv notes_old.txt Files/
+```
+
+```bash
+mkdir Test
+```
+
+```bash
+mv Test TestFolder
+```
+
+## Notes
+
+- Moves or renames files and directories.
+- `mv source destination` → Move or rename a file or directory.
+- `mv file1 file2` → Rename a file.
+- `mv file Folder/` → Move a file into a folder.
+- `mv Folder1 Folder2` → Rename or move a directory.
+---

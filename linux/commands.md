@@ -132,29 +132,68 @@ cat filename
 ## cp
 
 ### Description
+## cp
+
 Copies files or directories.
-
 ### Syntax
-cp source destination
 
-### Example
-`cp notes.txt backup.txt`
+```bash
+cp source destination
+```
+
+Copy a file or directory.
+
+```bash
+cp file1 file2
+```
+
+Copy a file with a new name.
+
+```bash
+cp file Folder/
+```
+
+Copy a file into a folder.
+
+```bash
+cp -r Folder1 Folder2
+```
+
+Copy a directory recursively.
 
 ---
 
 ## mv
 
 ### Description
+## mv
+
 Moves or renames files and directories.
 
 ### Syntax
+```bash
 mv source destination
+```
 
-### Rename Example
-`mv backup.txt notes-copy.txt`
+Move or rename a file or directory.
 
-### Move Example
-`mv notes.txt Documents/`
+```bash
+mv file1 file2
+```
+
+Rename a file.
+
+```bash
+mv file Folder/
+```
+
+Move a file into a folder.
+
+```bash
+mv Folder1 Folder2
+```
+
+Rename or move a directory.
 
 ---
 
