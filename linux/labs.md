@@ -416,3 +416,48 @@ mv Test TestFolder
 - `mv file Folder/` → Move a file into a folder.
 - `mv Folder1 Folder2` → Rename or move a directory.
 ---
+# Lab 14 – rm Command
+
+## Objective
+
+Learn how to remove files and directories using the `rm` command.
+
+
+---
+
+## command used
+
+```bash
+touch notes.txt
+rm notes.txt
+```
+
+Removes the file `notes.txt`.
+
+---
+
+
+
+```bash
+mkdir Documents
+rm -r Documents
+```
+
+Removes the directory and all its contents.
+
+---
+
+```bash
+touch temp.txt
+rm -f temp.txt
+```
+
+Removes the file without asking for confirmation.
+
+---
+
+## Notes
+
+- `-r` removes directories recursively.
+- `-f` forces deletion without confirmation.
+- Use `rm` carefully because deleted files cannot be recovered.

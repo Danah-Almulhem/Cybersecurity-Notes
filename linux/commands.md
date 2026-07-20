@@ -45,14 +45,49 @@ ls [option] [directory]
 
 ## mkdir
 
-### Description
+**Definition:**
+
 Creates a new directory.
 
-### Syntax
-mkdir directory_name
+**Syntax:**
 
-### Example
-`mkdir CyberLab`
+```bash
+mkdir directory_name
+```
+
+**Examples:**
+
+```bash
+mkdir Projects
+```
+
+```bash
+mkdir Folder1 Folder2 Folder3
+```
+
+---
+
+## rmdir
+
+**Definition:**
+
+Removes an empty directory.
+
+**Syntax:**
+
+```bash
+rmdir directory_name
+```
+
+**Example:**
+
+```bash
+rmdir Test
+```
+
+**Note:**
+
+`rmdir` only removes empty directories.
 
 ---
 
@@ -132,7 +167,6 @@ cat filename
 ## cp
 
 ### Description
-## cp
 
 Copies files or directories.
 ### Syntax
@@ -199,18 +233,34 @@ Rename or move a directory.
 
 ## rm
 
-### Description
-Deletes files or directories.
+**Definition:**
 
-### Syntax
-rm filename
+Removes files or directories.
 
-### Example
-`rm backup.txt`
+**Syntax:**
 
-To remove a directory:
-rm -r folder_name
+```bash
+rm [option] file_name
+```
 
+**Options:**
+
+- `-r` : Remove directories recursively.
+- `-f` : Force deletion without confirmation.
+
+**Examples:**
+
+```bash
+rm notes.txt
+```
+
+```bash
+rm -r Documents
+```
+
+```bash
+rm -f temp.txt
+```
 > Warning: rm permanently deletes files.
 
 ---
