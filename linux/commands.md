@@ -280,17 +280,50 @@ Output:
 kali
 
 ---
-
 ## history
 
-### Description
-Displays the list of previously executed commands.
+**Syntax:**
 
-### Syntax
+```bash
 history
+```
 
-### Example
-`history`
+**Examples:**
+
+```bash
+history
+```
+
+```bash
+!7
+```
+
+```bash
+!!
+```
+
+**Note:**
+
+Displays the command history and allows you to rerun previous commands.
+
+---
+## clear
+
+**Syntax:**
+
+```bash
+clear
+```
+
+**Example:**
+
+```bash
+clear
+```
+
+**Note:**
+
+Clears the terminal screen without deleting files or command history.
 
 ---
 

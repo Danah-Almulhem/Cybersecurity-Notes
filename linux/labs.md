@@ -461,3 +461,150 @@ Removes the file without asking for confirmation.
 - `-r` removes directories recursively.
 - `-f` forces deletion without confirmation.
 - Use `rm` carefully because deleted files cannot be recovered.
+
+---
+# Lab 15 – mkdir and rmdir
+
+## Objective
+
+Learn how to create and remove directories.
+
+---
+
+## Syntax
+
+```bash
+mkdir directory_name
+```
+
+```bash
+rmdir directory_name
+```
+
+---
+
+## commands
+
+```bash
+mkdir Projects
+```
+
+Creates a directory named `Projects`.
+
+---
+
+```bash
+mkdir Folder1 Folder2 Folder3
+```
+
+Creates multiple directories at once.
+
+---
+
+```bash
+mkdir Test
+rmdir Test
+```
+
+Removes the empty directory `Test`.
+
+---
+
+```bash
+mkdir Notes
+touch Notes/file.txt
+rmdir Notes
+```
+
+Returns an error because the directory is not empty.
+
+---
+
+## Notes
+
+- `mkdir` creates directories.
+- `rmdir` removes only empty directories.
+- Use `rm -r` to remove a directory with its contents.
+---
+# Lab 16 – clear
+
+## Objective
+
+Learn how to clear the terminal screen.
+
+---
+
+## Syntax
+
+```bash
+clear
+```
+
+---
+
+## commands
+
+```bash
+ls
+pwd
+clear
+```
+
+Clears the terminal screen.
+
+---
+
+## Notes
+
+- Clears the terminal screen.
+- Does not delete files.
+- Does not delete command history.
+---
+# Lab 17 – history
+
+## Objective
+
+Learn how to view and reuse previously executed commands.
+
+---
+
+## Syntax
+
+```bash
+history
+```
+
+---
+
+## commands
+
+```bash
+history
+```
+
+Displays the command history.
+
+---
+
+```bash
+!7
+```
+
+Runs command number 7 from the history.
+
+---
+
+```bash
+!!
+```
+
+Runs the last executed command.
+
+---
+
+## Notes
+
+- `history` displays previously executed commands.
+- `!number` runs a specific command from the history.
+- `!!` repeats the last command.
+---
